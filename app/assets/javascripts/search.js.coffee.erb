@@ -1,0 +1,30 @@
+jQuery ->
+  $("#search_form").submit (e) ->
+    e.preventDefault()
+    $("#wrap").slideUp()
+    if $("#captcha").val() == ""
+      get_captcha()
+    else
+      do_search $("#inn").val(), $("#captcha").val()
+      $("captcha").empty()
+      get_captcha()
+
+get_captcha = ->
+  $.getJSON "/get_captcha.json", {}, (captcha) ->
+    $("#captcha_img").attr "src", captcha[0]['captcha']
+do_search =  (inn, captcha) ->
+  $.getJSON $("#search_form").attr("action"), {inn: inn, captcha: captcha}, (json) ->
+    result = JSON.parse json[0]['result']
+    if result['result']['found']
+      found = result['result']['found']
+      orgs = result['result']['orgs']
+      org = orgs[0] 
+      $("#item-name").html org['name']
+      $("#item-date").html org['date']
+      $("#item-address").html org['address']
+      full_search(org)
+
+full_search = (org) ->
+  $.getJSON "/full_search.json", {org: org}, (data) ->
+    console.log data
+

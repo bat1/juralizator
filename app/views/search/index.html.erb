@@ -1,0 +1,58 @@
+<div class="container">
+        <div class="page-header">
+          <h1>Юридическа поисковая система</h1>
+          <%= session[:jar] %>
+        </div>
+        <p class="lead">
+          <div id="wrap">
+          <ul>
+            <li>официальное название компании с сокращенным наименованием формы собственности (ООО/ОАО/ЗАО/НКО и пр)</li>
+            <li>дата регистрации</li>
+            <li>если есть дата исключения из ЕГРЮЛ или ликвидации</li>
+            <li>адрес компании</li>
+            <li>ФИО директора</li>
+            <li>ФИО учредителей</li>
+          </ul>
+          </div>
+          <%= form_tag do_search_path, class:"form-inline", id: "search_form", role: "form" do %>
+            <div class="form-group">
+              <%= number_field_tag :inn, nil,placeholder: "ИНН", class: "form-control" %>
+            </div>
+            <div class="form-group" id="captcha_img_div">
+               <img src="" id="captcha_img" alt="" />
+            </div>
+            <div class="form-group" id="captcha_div">
+              <%= text_field_tag :captcha, nil,placeholder: "Код",maxlength:4,size:4, class: "form-control" %>
+            </div>
+            <%= submit_tag "Поиск", class: "btn btn-default" %>
+          <% end %>
+        </p>
+   
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Информация</h3>
+          </div>
+          <div class="panel-body">
+            <dl>
+              <dt>Название
+                <dd id="item-name"></dd>
+              </dt>
+              <dt>Адрес
+                <dd id="item-address"></dd>
+              </dt>
+              <dt>Дата включения в базу
+                <dd id="item-date"></dd>
+              </dt>
+              <dt>
+                <dd id="item-"></dd>
+              </dt>
+              <dt>
+                <dd id="item-"></dd>
+              </dt>
+              <dt>
+                <dd id="item-"></dd>
+              </dt>
+            </dl>
+          </div>
+        </div>
+</div>

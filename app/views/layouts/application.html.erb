@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juralizator</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+   <div class="navbar-header">
+    <a class="navbar-brand" href="#">Юранализатор</a>
+  </div>
+</nav>
+<%= yield %>
+
+</body>
+</html>
