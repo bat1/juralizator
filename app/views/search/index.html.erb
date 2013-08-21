@@ -1,15 +1,14 @@
 <div class="container">
         <div class="page-header">
           <h1>Юридическа поисковая система</h1>
-          <%= session[:jar] %>
         </div>
         <p class="lead">
           <div id="wrap">
           <ul>
-            <li>официальное название компании с сокращенным наименованием формы собственности (ООО/ОАО/ЗАО/НКО и пр)</li>
-            <li>дата регистрации</li>
-            <li>если есть дата исключения из ЕГРЮЛ или ликвидации</li>
-            <li>адрес компании</li>
+            <li>Официальное название компании с наименованием формы собственности</li>
+            <li>Дата регистрации</li>
+            <li>Дата исключения из ЕГРЮЛ или ликвидации</li>
+            <li>Адрес компании</li>
             <li>ФИО директора</li>
             <li>ФИО учредителей</li>
           </ul>
@@ -30,13 +29,10 @@
    
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title">Информация</h3>
+            <h3 class="panel-title" id="item-name">Поиск..</h3>
           </div>
-          <div class="panel-body">
+          <div class="panel-body" id="info-panel">
             <dl>
-              <dt>Название
-                <dd id="item-name"></dd>
-              </dt>
               <dt>Адрес
                 <dd id="item-address"></dd>
               </dt>

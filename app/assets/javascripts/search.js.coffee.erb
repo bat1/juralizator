@@ -1,4 +1,5 @@
 jQuery ->
+  get_captcha()
   $("#search_form").submit (e) ->
     e.preventDefault()
     $("#wrap").slideUp()
@@ -23,6 +24,7 @@ do_search =  (inn, captcha) ->
       $("#item-date").html org['date']
       $("#item-address").html org['address']
       full_search(org)
+      $("#info-panel").slideDown()
 
 full_search = (org) ->
   $.getJSON "/full_search.json", {org: org}, (data) ->

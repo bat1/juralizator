@@ -61,7 +61,7 @@ class SearchController < ApplicationController
       client = Google::APIClient.new
       client.authorization.access_token = 'AIzaSyB9zRr11FR79Z9g4_wJhHnj_9hXqC-Kha8'
       search = client.discovered_api('customsearch') 
-      client, search
+      return client, search
     end
     def google_query(client, query)
       client.execute(search.cse.list, 'q' => query)

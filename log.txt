@@ -5701,3 +5701,501 @@ D, [2013-08-21T17:56:26.505817 #1277] DEBUG -- : response-header: connection => 
 D, [2013-08-21T17:56:26.505865 #1277] DEBUG -- : response-header: content-type => image/png
 D, [2013-08-21T17:56:26.505972 #1277] DEBUG -- : Read 1037 bytes (1037 total)
 D, [2013-08-21T17:56:26.506026 #1277] DEBUG -- : Read 1155 bytes (2192 total)
+I, [2013-08-21T22:50:55.173125 #1277]  INFO -- : Net::HTTP::Get: /
+D, [2013-08-21T22:50:55.173362 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:50:55.173431 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:50:55.173483 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:50:55.173620 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:50:55.173671 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:50:55.173755 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:50:55.256298 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:50:55.256433 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:50:37 GMT
+D, [2013-08-21T22:50:55.256504 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:50:55.256564 #1277] DEBUG -- : response-header: set-cookie => PHPSESSID=jbjn0ksod8ktngeot2llaupmi2; path=/
+D, [2013-08-21T22:50:55.256619 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:50:55.256712 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:50:55.256765 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:50:55.256817 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=100
+D, [2013-08-21T22:50:55.256872 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:50:55.256925 #1277] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2013-08-21T22:50:55.257000 #1277] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2013-08-21T22:50:55.258976 #1277] DEBUG -- : Read 1043 bytes (1043 total)
+D, [2013-08-21T22:50:55.259113 #1277] DEBUG -- : Read 2941 bytes (3984 total)
+D, [2013-08-21T22:50:55.273589 #1277] DEBUG -- : Read 1440 bytes (5424 total)
+D, [2013-08-21T22:50:55.274208 #1277] DEBUG -- : Read 4320 bytes (9744 total)
+D, [2013-08-21T22:50:55.278969 #1277] DEBUG -- : Read 1440 bytes (11184 total)
+D, [2013-08-21T22:50:55.284984 #1277] DEBUG -- : Read 1562 bytes (12746 total)
+D, [2013-08-21T22:50:55.291586 #1277] DEBUG -- : Read 278 bytes (13024 total)
+D, [2013-08-21T22:50:55.297854 #1277] DEBUG -- : saved cookie: PHPSESSID=jbjn0ksod8ktngeot2llaupmi2
+I, [2013-08-21T22:50:55.298945 #1277]  INFO -- : Net::HTTP::Get: /?r=new_captcha
+D, [2013-08-21T22:50:55.299045 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:50:55.299103 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:50:55.299157 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:50:55.299213 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:50:55.299268 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:50:55.299322 #1277] DEBUG -- : request-header: cookie => PHPSESSID=jbjn0ksod8ktngeot2llaupmi2
+D, [2013-08-21T22:50:55.299372 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:50:55.429354 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:50:55.429459 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:50:38 GMT
+D, [2013-08-21T22:50:55.429516 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:50:55.429568 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:50:55.429619 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:50:55.429669 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:50:55.429717 #1277] DEBUG -- : response-header: content-length => 37
+D, [2013-08-21T22:50:55.429766 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=99
+D, [2013-08-21T22:50:55.429814 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:50:55.429860 #1277] DEBUG -- : response-header: content-type => text/html
+D, [2013-08-21T22:50:55.429982 #1277] DEBUG -- : Read 37 bytes (37 total)
+I, [2013-08-21T22:50:55.431138 #1277]  INFO -- : Net::HTTP::Get: /?r=captcha&h=1feea34c64085bf069aa6b466ddfc
+D, [2013-08-21T22:50:55.431221 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:50:55.431271 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:50:55.431321 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:50:55.431369 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:50:55.431416 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:50:55.431464 #1277] DEBUG -- : request-header: cookie => PHPSESSID=jbjn0ksod8ktngeot2llaupmi2
+D, [2013-08-21T22:50:55.431510 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:50:55.495597 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:50:55.495705 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:50:38 GMT
+D, [2013-08-21T22:50:55.495781 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:50:55.495837 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:50:55.495895 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:50:55.495950 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:50:55.496030 #1277] DEBUG -- : response-header: content-length => 1810
+D, [2013-08-21T22:50:55.496087 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=98
+D, [2013-08-21T22:50:55.496141 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:50:55.496190 #1277] DEBUG -- : response-header: content-type => image/png
+D, [2013-08-21T22:50:55.496289 #1277] DEBUG -- : Read 1129 bytes (1129 total)
+D, [2013-08-21T22:50:55.496343 #1277] DEBUG -- : Read 681 bytes (1810 total)
+I, [2013-08-21T22:51:06.999907 #1277]  INFO -- : Net::HTTP::Get: /
+D, [2013-08-21T22:51:07.000023 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:51:07.000077 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:51:07.000110 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:51:07.000141 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:51:07.000190 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:51:07.000237 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:51:07.060767 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:51:07.060881 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:50:49 GMT
+D, [2013-08-21T22:51:07.060939 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:51:07.060991 #1277] DEBUG -- : response-header: set-cookie => PHPSESSID=ltic608fmjd6mm5652bqd5qcq0; path=/
+D, [2013-08-21T22:51:07.061045 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:51:07.061097 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:51:07.061151 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:51:07.061202 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=100
+D, [2013-08-21T22:51:07.061263 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:51:07.061314 #1277] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2013-08-21T22:51:07.061367 #1277] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2013-08-21T22:51:07.061519 #1277] DEBUG -- : Read 1043 bytes (1043 total)
+D, [2013-08-21T22:51:07.061600 #1277] DEBUG -- : Read 2941 bytes (3984 total)
+D, [2013-08-21T22:51:07.077419 #1277] DEBUG -- : Read 1440 bytes (5424 total)
+D, [2013-08-21T22:51:07.077879 #1277] DEBUG -- : Read 1440 bytes (6864 total)
+D, [2013-08-21T22:51:07.078170 #1277] DEBUG -- : Read 1440 bytes (8304 total)
+D, [2013-08-21T22:51:07.079712 #1277] DEBUG -- : Read 1440 bytes (9744 total)
+D, [2013-08-21T22:51:07.079897 #1277] DEBUG -- : Read 1440 bytes (11184 total)
+D, [2013-08-21T22:51:07.081473 #1277] DEBUG -- : Read 1562 bytes (12746 total)
+D, [2013-08-21T22:51:07.094478 #1277] DEBUG -- : Read 278 bytes (13024 total)
+D, [2013-08-21T22:51:07.097617 #1277] DEBUG -- : saved cookie: PHPSESSID=ltic608fmjd6mm5652bqd5qcq0
+I, [2013-08-21T22:51:07.098726 #1277]  INFO -- : Net::HTTP::Get: /?r=new_captcha
+D, [2013-08-21T22:51:07.098829 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:51:07.098888 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:51:07.098946 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:51:07.098993 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:51:07.099065 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:51:07.099113 #1277] DEBUG -- : request-header: cookie => PHPSESSID=ltic608fmjd6mm5652bqd5qcq0
+D, [2013-08-21T22:51:07.099158 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:51:07.137498 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:51:07.137632 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:50:49 GMT
+D, [2013-08-21T22:51:07.137688 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:51:07.137737 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:51:07.137784 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:51:07.137832 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:51:07.137881 #1277] DEBUG -- : response-header: content-length => 33
+D, [2013-08-21T22:51:07.137927 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=99
+D, [2013-08-21T22:51:07.137973 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:51:07.138021 #1277] DEBUG -- : response-header: content-type => text/html
+D, [2013-08-21T22:51:07.138160 #1277] DEBUG -- : Read 33 bytes (33 total)
+I, [2013-08-21T22:51:07.139311 #1277]  INFO -- : Net::HTTP::Get: /?r=captcha&h=87d4a6c290dd7f0fe394f3ce0
+D, [2013-08-21T22:51:07.139404 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:51:07.139457 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:51:07.139505 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:51:07.139537 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:51:07.139565 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:51:07.139594 #1277] DEBUG -- : request-header: cookie => PHPSESSID=ltic608fmjd6mm5652bqd5qcq0
+D, [2013-08-21T22:51:07.139622 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:51:07.206186 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:51:07.206317 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:50:49 GMT
+D, [2013-08-21T22:51:07.206376 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:51:07.206427 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:51:07.206476 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:51:07.206545 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:51:07.206593 #1277] DEBUG -- : response-header: content-length => 2200
+D, [2013-08-21T22:51:07.206643 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=98
+D, [2013-08-21T22:51:07.206692 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:51:07.206744 #1277] DEBUG -- : response-header: content-type => image/png
+D, [2013-08-21T22:51:07.206873 #1277] DEBUG -- : Read 2200 bytes (2200 total)
+I, [2013-08-21T22:59:19.001343 #1277]  INFO -- : Net::HTTP::Get: /
+D, [2013-08-21T22:59:19.001579 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:59:19.001659 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:59:19.001714 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:59:19.001766 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:59:19.001813 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:59:19.001868 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:59:19.062460 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:59:19.062574 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:59:01 GMT
+D, [2013-08-21T22:59:19.062658 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:59:19.062711 #1277] DEBUG -- : response-header: set-cookie => PHPSESSID=sfd53sv66k8k5i9i1iogrke8a0; path=/
+D, [2013-08-21T22:59:19.062760 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:59:19.062812 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:59:19.062860 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:59:19.062907 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=100
+D, [2013-08-21T22:59:19.062952 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:59:19.063003 #1277] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2013-08-21T22:59:19.063060 #1277] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2013-08-21T22:59:19.063292 #1277] DEBUG -- : Read 1043 bytes (1043 total)
+D, [2013-08-21T22:59:19.063385 #1277] DEBUG -- : Read 2941 bytes (3984 total)
+D, [2013-08-21T22:59:19.079926 #1277] DEBUG -- : Read 1440 bytes (5424 total)
+D, [2013-08-21T22:59:19.083950 #1277] DEBUG -- : Read 1440 bytes (6864 total)
+D, [2013-08-21T22:59:19.084384 #1277] DEBUG -- : Read 1440 bytes (8304 total)
+D, [2013-08-21T22:59:19.084843 #1277] DEBUG -- : Read 1440 bytes (9744 total)
+D, [2013-08-21T22:59:19.088574 #1277] DEBUG -- : Read 1440 bytes (11184 total)
+D, [2013-08-21T22:59:19.089154 #1277] DEBUG -- : Read 1562 bytes (12746 total)
+D, [2013-08-21T22:59:19.107168 #1277] DEBUG -- : Read 278 bytes (13024 total)
+D, [2013-08-21T22:59:19.109617 #1277] DEBUG -- : saved cookie: PHPSESSID=sfd53sv66k8k5i9i1iogrke8a0
+I, [2013-08-21T22:59:19.110399 #1277]  INFO -- : Net::HTTP::Get: /?r=new_captcha
+D, [2013-08-21T22:59:19.110491 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:59:19.110547 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:59:19.110606 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:59:19.110657 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:59:19.110710 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:59:19.110761 #1277] DEBUG -- : request-header: cookie => PHPSESSID=sfd53sv66k8k5i9i1iogrke8a0
+D, [2013-08-21T22:59:19.110807 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:59:19.157678 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:59:19.157788 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:59:01 GMT
+D, [2013-08-21T22:59:19.157857 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:59:19.157910 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:59:19.157980 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:59:19.158032 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:59:19.158075 #1277] DEBUG -- : response-header: content-length => 40
+D, [2013-08-21T22:59:19.158106 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=99
+D, [2013-08-21T22:59:19.158134 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:59:19.158170 #1277] DEBUG -- : response-header: content-type => text/html
+D, [2013-08-21T22:59:19.158268 #1277] DEBUG -- : Read 40 bytes (40 total)
+I, [2013-08-21T22:59:19.159358 #1277]  INFO -- : Net::HTTP::Get: /?r=captcha&h=2f40a862442d1c4fb59a35c50a7e9cc0
+D, [2013-08-21T22:59:19.159448 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T22:59:19.159503 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T22:59:19.159556 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T22:59:19.159632 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T22:59:19.159687 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T22:59:19.159739 #1277] DEBUG -- : request-header: cookie => PHPSESSID=sfd53sv66k8k5i9i1iogrke8a0
+D, [2013-08-21T22:59:19.159787 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T22:59:19.227733 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T22:59:19.227861 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 18:59:01 GMT
+D, [2013-08-21T22:59:19.227934 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T22:59:19.229176 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T22:59:19.229361 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T22:59:19.229427 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T22:59:19.229500 #1277] DEBUG -- : response-header: content-length => 1996
+D, [2013-08-21T22:59:19.229654 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=98
+D, [2013-08-21T22:59:19.229712 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T22:59:19.229767 #1277] DEBUG -- : response-header: content-type => image/png
+D, [2013-08-21T22:59:19.229913 #1277] DEBUG -- : Read 1996 bytes (1996 total)
+I, [2013-08-21T23:00:51.201351 #1277]  INFO -- : Net::HTTP::Get: /
+D, [2013-08-21T23:00:51.201518 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:00:51.201581 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:00:51.201654 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:00:51.201715 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:00:51.201796 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:00:51.201859 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:00:51.271448 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:00:51.271571 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:00:33 GMT
+D, [2013-08-21T23:00:51.271723 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:00:51.271789 #1277] DEBUG -- : response-header: set-cookie => PHPSESSID=dvl406p8svcgn6o40g5o1eup10; path=/
+D, [2013-08-21T23:00:51.271851 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:00:51.271911 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:00:51.271971 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:00:51.272094 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=100
+D, [2013-08-21T23:00:51.272149 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:00:51.272202 #1277] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2013-08-21T23:00:51.272275 #1277] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2013-08-21T23:00:51.272572 #1277] DEBUG -- : Read 1043 bytes (1043 total)
+D, [2013-08-21T23:00:51.272701 #1277] DEBUG -- : Read 2941 bytes (3984 total)
+D, [2013-08-21T23:00:51.287616 #1277] DEBUG -- : Read 1440 bytes (5424 total)
+D, [2013-08-21T23:00:51.288284 #1277] DEBUG -- : Read 1440 bytes (6864 total)
+D, [2013-08-21T23:00:51.288437 #1277] DEBUG -- : Read 1440 bytes (8304 total)
+D, [2013-08-21T23:00:51.336334 #1277] DEBUG -- : Read 1440 bytes (9744 total)
+D, [2013-08-21T23:00:51.336490 #1277] DEBUG -- : Read 3280 bytes (13024 total)
+D, [2013-08-21T23:00:51.338436 #1277] DEBUG -- : saved cookie: PHPSESSID=dvl406p8svcgn6o40g5o1eup10
+I, [2013-08-21T23:00:51.339061 #1277]  INFO -- : Net::HTTP::Get: /?r=new_captcha
+D, [2013-08-21T23:00:51.339128 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:00:51.339208 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:00:51.339258 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:00:51.339290 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:00:51.339319 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:00:51.339349 #1277] DEBUG -- : request-header: cookie => PHPSESSID=dvl406p8svcgn6o40g5o1eup10
+D, [2013-08-21T23:00:51.339383 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:00:51.377032 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:00:51.377143 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:00:33 GMT
+D, [2013-08-21T23:00:51.377200 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:00:51.377250 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:00:51.377301 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:00:51.377349 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:00:51.377397 #1277] DEBUG -- : response-header: content-length => 33
+D, [2013-08-21T23:00:51.377445 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=99
+D, [2013-08-21T23:00:51.377489 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:00:51.377537 #1277] DEBUG -- : response-header: content-type => text/html
+D, [2013-08-21T23:00:51.377671 #1277] DEBUG -- : Read 33 bytes (33 total)
+I, [2013-08-21T23:00:51.378773 #1277]  INFO -- : Net::HTTP::Get: /?r=captcha&h=331a4b173136ab97be96ad8ab
+D, [2013-08-21T23:00:51.378842 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:00:51.378892 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:00:51.378941 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:00:51.378990 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:00:51.379038 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:00:51.379085 #1277] DEBUG -- : request-header: cookie => PHPSESSID=dvl406p8svcgn6o40g5o1eup10
+D, [2013-08-21T23:00:51.379132 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:00:51.441639 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:00:51.441837 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:00:33 GMT
+D, [2013-08-21T23:00:51.441905 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:00:51.441988 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:00:51.442047 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:00:51.442104 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:00:51.442139 #1277] DEBUG -- : response-header: content-length => 1764
+D, [2013-08-21T23:00:51.442174 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=98
+D, [2013-08-21T23:00:51.442217 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:00:51.442268 #1277] DEBUG -- : response-header: content-type => image/png
+D, [2013-08-21T23:00:51.442403 #1277] DEBUG -- : Read 1129 bytes (1129 total)
+D, [2013-08-21T23:00:51.442463 #1277] DEBUG -- : Read 635 bytes (1764 total)
+I, [2013-08-21T23:01:04.012988 #1277]  INFO -- : Net::HTTP::Get: /
+D, [2013-08-21T23:01:04.013092 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:04.013142 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:04.013191 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:04.013240 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:04.013304 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:04.013351 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:01:04.110203 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:04.110319 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:00:46 GMT
+D, [2013-08-21T23:01:04.110378 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:04.110431 #1277] DEBUG -- : response-header: set-cookie => PHPSESSID=bo9sugtpocq9j57am1o5ep5hv0; path=/
+D, [2013-08-21T23:01:04.110485 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:04.110532 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:04.110582 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:04.110638 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=100
+D, [2013-08-21T23:01:04.110691 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:04.110742 #1277] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2013-08-21T23:01:04.110793 #1277] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2013-08-21T23:01:04.111037 #1277] DEBUG -- : Read 3984 bytes (3984 total)
+D, [2013-08-21T23:01:04.126215 #1277] DEBUG -- : Read 1440 bytes (5424 total)
+D, [2013-08-21T23:01:04.130125 #1277] DEBUG -- : Read 1440 bytes (6864 total)
+D, [2013-08-21T23:01:04.130683 #1277] DEBUG -- : Read 1440 bytes (8304 total)
+D, [2013-08-21T23:01:04.131575 #1277] DEBUG -- : Read 1440 bytes (9744 total)
+D, [2013-08-21T23:01:04.131953 #1277] DEBUG -- : Read 1440 bytes (11184 total)
+D, [2013-08-21T23:01:04.132604 #1277] DEBUG -- : Read 1440 bytes (12624 total)
+D, [2013-08-21T23:01:04.132671 #1277] DEBUG -- : Read 122 bytes (12746 total)
+D, [2013-08-21T23:01:04.141094 #1277] DEBUG -- : Read 278 bytes (13024 total)
+D, [2013-08-21T23:01:04.143700 #1277] DEBUG -- : saved cookie: PHPSESSID=bo9sugtpocq9j57am1o5ep5hv0
+I, [2013-08-21T23:01:04.155605 #1277]  INFO -- : form encoding: utf-8
+D, [2013-08-21T23:01:04.157923 #1277] DEBUG -- : query: "num=7716527993&name=&address=&region=0&date=&capcha=8735"
+I, [2013-08-21T23:01:04.160204 #1277]  INFO -- : Net::HTTP::Post: /?r=search
+D, [2013-08-21T23:01:04.160294 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:04.160336 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:04.160372 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:04.160404 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:04.160442 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:04.160475 #1277] DEBUG -- : request-header: cookie => PHPSESSID=dvl406p8svcgn6o40g5o1eup10
+D, [2013-08-21T23:01:04.160509 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+D, [2013-08-21T23:01:04.160553 #1277] DEBUG -- : request-header: referer => http://egrul.nalog.ru/
+D, [2013-08-21T23:01:04.160590 #1277] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2013-08-21T23:01:04.160622 #1277] DEBUG -- : request-header: content-length => 56
+I, [2013-08-21T23:01:04.343382 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:04.343492 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:00:46 GMT
+D, [2013-08-21T23:01:04.343552 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:04.343603 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:04.343658 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:04.343710 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:04.343759 #1277] DEBUG -- : response-header: content-length => 841
+D, [2013-08-21T23:01:04.343829 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=99
+D, [2013-08-21T23:01:04.343880 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:04.343930 #1277] DEBUG -- : response-header: content-type => text/html
+D, [2013-08-21T23:01:04.344067 #1277] DEBUG -- : Read 841 bytes (841 total)
+I, [2013-08-21T23:01:04.352609 #1277]  INFO -- : Net::HTTP::Get: /
+D, [2013-08-21T23:01:04.352756 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:04.352813 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:04.352868 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:04.352922 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:04.352976 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:04.353039 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:01:04.414985 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:04.415130 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:00:46 GMT
+D, [2013-08-21T23:01:04.415200 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:04.415255 #1277] DEBUG -- : response-header: set-cookie => PHPSESSID=jha7h9v5dp9bb6nv7e4cj6lpf0; path=/
+D, [2013-08-21T23:01:04.415309 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:04.415361 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:04.415414 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:04.415470 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=100
+D, [2013-08-21T23:01:04.415519 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:04.415570 #1277] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2013-08-21T23:01:04.415613 #1277] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2013-08-21T23:01:04.416020 #1277] DEBUG -- : Read 1043 bytes (1043 total)
+D, [2013-08-21T23:01:04.416108 #1277] DEBUG -- : Read 2941 bytes (3984 total)
+D, [2013-08-21T23:01:04.431482 #1277] DEBUG -- : Read 1440 bytes (5424 total)
+D, [2013-08-21T23:01:04.432105 #1277] DEBUG -- : Read 1440 bytes (6864 total)
+D, [2013-08-21T23:01:04.432609 #1277] DEBUG -- : Read 1440 bytes (8304 total)
+D, [2013-08-21T23:01:04.433062 #1277] DEBUG -- : Read 1440 bytes (9744 total)
+D, [2013-08-21T23:01:04.437060 #1277] DEBUG -- : Read 1440 bytes (11184 total)
+D, [2013-08-21T23:01:04.437745 #1277] DEBUG -- : Read 1562 bytes (12746 total)
+D, [2013-08-21T23:01:04.449332 #1277] DEBUG -- : Read 278 bytes (13024 total)
+D, [2013-08-21T23:01:04.452764 #1277] DEBUG -- : saved cookie: PHPSESSID=jha7h9v5dp9bb6nv7e4cj6lpf0
+I, [2013-08-21T23:01:04.454897 #1277]  INFO -- : Net::HTTP::Get: /?r=new_captcha
+D, [2013-08-21T23:01:04.455939 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:04.456059 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:04.456135 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:04.456201 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:04.456260 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:04.456324 #1277] DEBUG -- : request-header: cookie => PHPSESSID=jha7h9v5dp9bb6nv7e4cj6lpf0
+D, [2013-08-21T23:01:04.456643 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:01:04.494916 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:04.495004 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:00:47 GMT
+D, [2013-08-21T23:01:04.495051 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:04.495090 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:04.495144 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:04.495187 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:04.495230 #1277] DEBUG -- : response-header: content-length => 33
+D, [2013-08-21T23:01:04.495272 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=99
+D, [2013-08-21T23:01:04.495307 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:04.495344 #1277] DEBUG -- : response-header: content-type => text/html
+D, [2013-08-21T23:01:04.495445 #1277] DEBUG -- : Read 33 bytes (33 total)
+I, [2013-08-21T23:01:04.496661 #1277]  INFO -- : Net::HTTP::Get: /?r=captcha&h=a4612ee805175d0b8b43510c2
+D, [2013-08-21T23:01:04.496746 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:04.496807 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:04.496877 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:04.496932 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:04.496991 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:04.497049 #1277] DEBUG -- : request-header: cookie => PHPSESSID=jha7h9v5dp9bb6nv7e4cj6lpf0
+D, [2013-08-21T23:01:04.497101 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:01:04.568183 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:04.568274 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:00:47 GMT
+D, [2013-08-21T23:01:04.568335 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:04.568388 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:04.568445 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:04.568496 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:04.568547 #1277] DEBUG -- : response-header: content-length => 2237
+D, [2013-08-21T23:01:04.568596 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=98
+D, [2013-08-21T23:01:04.568633 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:04.568662 #1277] DEBUG -- : response-header: content-type => image/png
+D, [2013-08-21T23:01:04.568777 #1277] DEBUG -- : Read 1129 bytes (1129 total)
+D, [2013-08-21T23:01:04.568896 #1277] DEBUG -- : Read 1108 bytes (2237 total)
+I, [2013-08-21T23:01:26.009028 #1277]  INFO -- : Net::HTTP::Get: /
+D, [2013-08-21T23:01:26.009209 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:26.009267 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:26.009319 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:26.009373 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:26.009487 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:26.009561 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:01:26.094293 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:26.094475 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:01:08 GMT
+D, [2013-08-21T23:01:26.094539 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:26.094599 #1277] DEBUG -- : response-header: set-cookie => PHPSESSID=a0m6mnlt1fe9j1cd5f4p7keua6; path=/
+D, [2013-08-21T23:01:26.094657 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:26.094711 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:26.094764 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:26.094847 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=100
+D, [2013-08-21T23:01:26.094900 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:26.094949 #1277] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2013-08-21T23:01:26.095005 #1277] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2013-08-21T23:01:26.095291 #1277] DEBUG -- : Read 1043 bytes (1043 total)
+D, [2013-08-21T23:01:26.095405 #1277] DEBUG -- : Read 2941 bytes (3984 total)
+D, [2013-08-21T23:01:26.111304 #1277] DEBUG -- : Read 1440 bytes (5424 total)
+D, [2013-08-21T23:01:26.111753 #1277] DEBUG -- : Read 1440 bytes (6864 total)
+D, [2013-08-21T23:01:26.112064 #1277] DEBUG -- : Read 1440 bytes (8304 total)
+D, [2013-08-21T23:01:26.112636 #1277] DEBUG -- : Read 1440 bytes (9744 total)
+D, [2013-08-21T23:01:26.112920 #1277] DEBUG -- : Read 1440 bytes (11184 total)
+D, [2013-08-21T23:01:26.113259 #1277] DEBUG -- : Read 1562 bytes (12746 total)
+D, [2013-08-21T23:01:26.129473 #1277] DEBUG -- : Read 278 bytes (13024 total)
+D, [2013-08-21T23:01:26.131947 #1277] DEBUG -- : saved cookie: PHPSESSID=a0m6mnlt1fe9j1cd5f4p7keua6
+I, [2013-08-21T23:01:26.136139 #1277]  INFO -- : form encoding: utf-8
+D, [2013-08-21T23:01:26.136584 #1277] DEBUG -- : query: "num=7716527993&name=&address=&region=0&date=&capcha=8735"
+I, [2013-08-21T23:01:26.137485 #1277]  INFO -- : Net::HTTP::Post: /?r=search
+D, [2013-08-21T23:01:26.137561 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:26.137616 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:26.137673 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:26.137731 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:26.137776 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:26.137820 #1277] DEBUG -- : request-header: cookie => PHPSESSID=jha7h9v5dp9bb6nv7e4cj6lpf0
+D, [2013-08-21T23:01:26.137862 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+D, [2013-08-21T23:01:26.137914 #1277] DEBUG -- : request-header: referer => http://egrul.nalog.ru/
+D, [2013-08-21T23:01:26.137958 #1277] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2013-08-21T23:01:26.138001 #1277] DEBUG -- : request-header: content-length => 56
+I, [2013-08-21T23:01:26.281089 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:26.281195 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:01:08 GMT
+D, [2013-08-21T23:01:26.281265 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:26.281319 #1277] DEBUG -- : response-header: expires => Mon, 26 Jul 1997 05:00:00 GMT
+D, [2013-08-21T23:01:26.281373 #1277] DEBUG -- : response-header: cache-control => no-cache, must-revalidate
+D, [2013-08-21T23:01:26.281424 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:26.281478 #1277] DEBUG -- : response-header: content-length => 128
+D, [2013-08-21T23:01:26.281530 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=99
+D, [2013-08-21T23:01:26.281584 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:26.281656 #1277] DEBUG -- : response-header: content-type => text/html
+D, [2013-08-21T23:01:26.281804 #1277] DEBUG -- : Read 128 bytes (128 total)
+I, [2013-08-21T23:01:26.289944 #1277]  INFO -- : Net::HTTP::Get: /
+D, [2013-08-21T23:01:26.290046 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:26.290099 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:26.290148 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:26.290198 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:26.290243 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:26.290333 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:01:26.366516 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:26.366620 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:01:08 GMT
+D, [2013-08-21T23:01:26.366675 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:26.366726 #1277] DEBUG -- : response-header: set-cookie => PHPSESSID=m9or4hbt9oh7vgvn119reesub5; path=/
+D, [2013-08-21T23:01:26.366791 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:26.366845 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:26.366892 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:26.366937 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=100
+D, [2013-08-21T23:01:26.366983 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:26.367029 #1277] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2013-08-21T23:01:26.367074 #1277] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2013-08-21T23:01:26.367244 #1277] DEBUG -- : Read 1043 bytes (1043 total)
+D, [2013-08-21T23:01:26.367412 #1277] DEBUG -- : Read 2941 bytes (3984 total)
+D, [2013-08-21T23:01:26.383312 #1277] DEBUG -- : Read 1440 bytes (5424 total)
+D, [2013-08-21T23:01:26.383771 #1277] DEBUG -- : Read 1440 bytes (6864 total)
+D, [2013-08-21T23:01:26.384081 #1277] DEBUG -- : Read 1440 bytes (8304 total)
+D, [2013-08-21T23:01:26.386619 #1277] DEBUG -- : Read 4442 bytes (12746 total)
+D, [2013-08-21T23:01:26.399583 #1277] DEBUG -- : Read 278 bytes (13024 total)
+D, [2013-08-21T23:01:26.402012 #1277] DEBUG -- : saved cookie: PHPSESSID=m9or4hbt9oh7vgvn119reesub5
+I, [2013-08-21T23:01:26.402809 #1277]  INFO -- : Net::HTTP::Get: /?r=new_captcha
+D, [2013-08-21T23:01:26.402889 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:26.402941 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:26.402993 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:26.403046 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:26.403094 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:26.403141 #1277] DEBUG -- : request-header: cookie => PHPSESSID=m9or4hbt9oh7vgvn119reesub5
+D, [2013-08-21T23:01:26.403192 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:01:26.447416 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:26.447521 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:01:09 GMT
+D, [2013-08-21T23:01:26.447590 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:26.447645 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:26.447699 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:26.447753 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:26.447812 #1277] DEBUG -- : response-header: content-length => 38
+D, [2013-08-21T23:01:26.447865 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=99
+D, [2013-08-21T23:01:26.447917 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:26.447969 #1277] DEBUG -- : response-header: content-type => text/html
+D, [2013-08-21T23:01:26.448100 #1277] DEBUG -- : Read 38 bytes (38 total)
+I, [2013-08-21T23:01:26.449057 #1277]  INFO -- : Net::HTTP::Get: /?r=captcha&h=d52851689d066b03810545e80a553a
+D, [2013-08-21T23:01:26.449130 #1277] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2013-08-21T23:01:26.449178 #1277] DEBUG -- : request-header: accept => */*
+D, [2013-08-21T23:01:26.449226 #1277] DEBUG -- : request-header: user-agent => Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+D, [2013-08-21T23:01:26.449287 #1277] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2013-08-21T23:01:26.449346 #1277] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2013-08-21T23:01:26.449404 #1277] DEBUG -- : request-header: cookie => PHPSESSID=m9or4hbt9oh7vgvn119reesub5
+D, [2013-08-21T23:01:26.449457 #1277] DEBUG -- : request-header: host => egrul.nalog.ru
+I, [2013-08-21T23:01:26.512051 #1277]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2013-08-21T23:01:26.512160 #1277] DEBUG -- : response-header: date => Wed, 21 Aug 2013 19:01:09 GMT
+D, [2013-08-21T23:01:26.512215 #1277] DEBUG -- : response-header: server => Apache
+D, [2013-08-21T23:01:26.512264 #1277] DEBUG -- : response-header: expires => Thu, 19 Nov 1981 08:52:00 GMT
+D, [2013-08-21T23:01:26.512313 #1277] DEBUG -- : response-header: cache-control => no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+D, [2013-08-21T23:01:26.512371 #1277] DEBUG -- : response-header: pragma => no-cache
+D, [2013-08-21T23:01:26.512420 #1277] DEBUG -- : response-header: content-length => 2038
+D, [2013-08-21T23:01:26.512480 #1277] DEBUG -- : response-header: keep-alive => timeout=5, max=98
+D, [2013-08-21T23:01:26.512529 #1277] DEBUG -- : response-header: connection => Keep-Alive
+D, [2013-08-21T23:01:26.512577 #1277] DEBUG -- : response-header: content-type => image/png
+D, [2013-08-21T23:01:26.512714 #1277] DEBUG -- : Read 1129 bytes (1129 total)
+D, [2013-08-21T23:01:26.512797 #1277] DEBUG -- : Read 909 bytes (2038 total)
