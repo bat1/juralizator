@@ -35,6 +35,7 @@ end
 gem 'mechanize'
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                           :github => 'anjlab/bootstrap-rails'
+gem 'google-api-client', :require => 'google/api_client'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

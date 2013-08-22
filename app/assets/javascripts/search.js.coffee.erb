@@ -29,4 +29,6 @@ do_search =  (inn, captcha) ->
 full_search = (org) ->
   $.getJSON "/full_search.json", {org: org}, (data) ->
     console.log data
+    $("#item-site").attr 'href', 'http://'+data[0]['result'][0]['site'].replace("/url?q=",'').replace('http://','').replace('https://','').split(/[/?#]/)[0].replace('"','')
+    $("#item-site").html $("#item-site").attr 'href'
 

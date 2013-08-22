@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 class SearchController < ApplicationController
   def index
   end
@@ -40,10 +42,14 @@ class SearchController < ApplicationController
   end
 
   def full_search
-      client, search = create_google_client
-            respond_to do |format|
+      result = google_query(create_agent, params[:org][:name].delete("&quot;"))
+      result.each do |li|
+
+      end
+      first_link_with_site = result.first.search(".r").first.search("a").first.attributes['href'].value
+      respond_to do |format|
         format.json do
-          render json: [ result: "ok" ]
+          render json: [ result: ['site' => first_link_with_site.inspect] ]
         end
       end
   end
@@ -59,11 +65,17 @@ class SearchController < ApplicationController
     end
     def create_google_client
       client = Google::APIClient.new
-      client.authorization.access_token = 'AIzaSyB9zRr11FR79Z9g4_wJhHnj_9hXqC-Kha8'
+      client.authorization.access_token = 'AIzaSyDQsz0wkqFcJyJ6Qmk6JpUQuhbABmaX4O4'
       search = client.discovered_api('customsearch') 
       return client, search
     end
-    def google_query(client, query)
-      client.execute(search.cse.list, 'q' => query)
+    def google_query(agent, query)
+       agent.get('http://google.com/') do |page|
+         result = page.form_with(name: "f") do |form|
+           form.field_with(name: 'q').value = query.to_s
+         end.submit
+         return (result/"li.g")
+       end
     end
 end
+
