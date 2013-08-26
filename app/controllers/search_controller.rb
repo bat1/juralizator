@@ -54,6 +54,17 @@ class SearchController < ApplicationController
       end
   end
 
+  def law_search
+    agent = create_agent
+    results = agent.get("http://rospravosudie.com/act-#{params[:org][:name].delete("&quot;")}-q/section-acts/").search(".table a")
+    results =results.map { |r| [url: r.attributes['href'].value, value: r.text] }
+    respond_to do |format|
+      format.json do
+        render json: [ result: results ]
+      end
+    end
+  end
+
   private
     def create_agent
       agent = Mechanize.new do |a|

@@ -24,11 +24,27 @@ do_search =  (inn, captcha) ->
       $("#item-date").html org['date']
       $("#item-address").html org['address']
       full_search(org)
+      law_search org
       $("#info-panel").slideDown()
 
 full_search = (org) ->
-  $.getJSON "/full_search.json", {org: org}, (data) ->
+
+  name = org['name'].replace(/&quot;/g,'').replace(/ограниченной/,'О').replace(/ответственностью/,'О').replace(/[оО]бщество/,'О')
+  $.get "http://ajax.googleapis.com/ajax/services/search/web", {v: '1.0', q: name}, ((data) ->
     console.log data
-    $("#item-site").attr 'href', 'http://'+data[0]['result'][0]['site'].replace("/url?q=",'').replace('http://','').replace('https://','').split(/[/?#]/)[0].replace('"','')
-    $("#item-site").html $("#item-site").attr 'href'
+    results = data['responseData']['results']
+    $("#item-site").html results[0]['visibleUrl']
+    $("#item-site").attr 'href', results[0]['url']
+    for result in results
+      do (result) ->
+        $("#more-url ul").append("<li><a href='"+result['url']+"'>"+result['title']+"</a>"+"<li>") if result['url']
+  ), "jsonp"
+
+law_search = (org) ->
+  $.getJSON "/search/law.json", {org: org}, (data) ->
+    console.log data
+    for d in data[0]['result']
+      do (d) ->
+        $("#court-list").append "<li><a href='http://rospravosudie.com/#{d[0]['url']}'>#{d[0]['value']}</a></li>"
+        console.log d[0]['url']
 

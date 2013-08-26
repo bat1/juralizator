@@ -10,6 +10,9 @@ Juralizator::Application.routes.draw do
   get 'get_captcha' => 'search#get_captcha'
   get 'do_search' => 'search#do_search'
   get 'full_search' => 'search#full_search'
+  scope :search do
+    get 'law' => 'search#law_search'
+  end
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
