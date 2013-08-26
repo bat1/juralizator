@@ -68,7 +68,7 @@ class SearchController < ApplicationController
   private
     def create_agent
       agent = Mechanize.new do |a|
-       a.log = Logger.new('log.txt')
+       #a.log = Logger.new('log.txt')
        a.user_agent_alias = "Windows IE 6"
       end
       #unless session[:jar].nil?
